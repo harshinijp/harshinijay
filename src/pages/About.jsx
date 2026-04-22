@@ -18,7 +18,7 @@ const photos = [
 
 export default function About() {
   return (
-    <main>
+    <main style={{ maxWidth: 780, margin: '0 auto' }}>
       <section style={{ display: 'flex', gap: 40, padding: '48px 0 64px', alignItems: 'flex-start' }}>
         <div style={{ flex: 1 }}>
           <h1 style={{
