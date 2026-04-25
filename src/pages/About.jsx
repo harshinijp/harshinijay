@@ -37,7 +37,7 @@ export default function About() {
           }}>
             Learn about my experiences{' '}
             <Link to="/resume" style={{ textDecoration: 'underline', textUnderlineOffset: 3 }}>
-              here →
+              here↗
             </Link>
           </p>
           <p style={{

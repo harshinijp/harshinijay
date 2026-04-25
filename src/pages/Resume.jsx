@@ -31,7 +31,7 @@ const education = [
           }}>
             <div style={{ minWidth: 0 }}>
               <p style={{
-                fontFamily: 'var(--font-serif)', fontSize: 16, fontWeight: 600, marginBottom: 2,
+                fontFamily: 'var(--font-mono)', fontSize: 15, fontWeight: 500, marginBottom: 2,
               }}>{item.title}</p>
               <p style={{ fontSize: 12, color: '#888', fontFamily: 'var(--font-mono)' }}>{item.sub}</p>
             </div>

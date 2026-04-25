@@ -6,7 +6,7 @@ const projects = [
     title: 'Skip',
     desc: 'Led product innovation for a maternal-health monitoring wearable from discovery to MVP concept. The work led to the spin-out of Project Stardust.',
     org: 'GOOGLE X SPINOFF · FALL 2025',
-    tags: [{ label: 'Product Innovation', filled: true }, { label: '0 to 1 MVP', filled: false }],
+    tags: [{ label: 'Hardware', filled: true }, { label: '0 to 1 MVP', filled: false }],
     image: '/images/stardust.svg',
   },
   {
