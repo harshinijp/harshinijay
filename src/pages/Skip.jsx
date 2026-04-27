@@ -78,11 +78,12 @@ export default function Skip() {
         </div>
       </div>
 
-      <div style={{ display: 'flex', gap: 48, alignItems: 'flex-start' }}>
+      <div style={{ display: 'flex', gap: 48, alignItems: 'flex-start',position: 'relative' }}>
         <nav style={{
           position: 'sticky', top: 80, width: 140, flexShrink: 0,
           display: 'flex', flexDirection: 'column', gap: 10,
           alignSelf: 'flex-start',
+          height: 'fit-content',
         }}>
           {renderNav()}
         </nav>
