@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Resume from './pages/Resume'
 import Pfizer from './pages/Pfizer'
+import Skip from './pages/Skip'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/pfizer" element={<Pfizer />} />
+        <Route path="/skip" element={<Skip />} />
       </Routes>
       <Footer />
     </div>
