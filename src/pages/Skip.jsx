@@ -38,7 +38,7 @@ export default function Skip() {
           style={{
             fontSize: 11,
             fontFamily: 'var(--font-mono)',
-            color: activeSection === id ? '#1a1a1a' : '#bbb',
+            color: activeSection === id ? '#e8748a' : '#bbb',
             fontWeight: activeSection === id ? 500 : 400,
             transition: 'color 0.2s',
           }}
@@ -80,7 +80,7 @@ export default function Skip() {
 
       <div style={{ display: 'flex', gap: 48, alignItems: 'flex-start' }}>
         <nav style={{
-          position: 'sticky', top: 24, width: 140, flexShrink: 0,
+          position: 'fixed', top: 24, width: 140, flexShrink: 0,
           display: 'flex', flexDirection: 'column', gap: 10,
         }}>
           {renderNav()}
