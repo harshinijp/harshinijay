@@ -80,8 +80,9 @@ export default function Skip() {
 
       <div style={{ display: 'flex', gap: 48, alignItems: 'flex-start' }}>
         <nav style={{
-          position: 'fixed', top: 24, width: 140, flexShrink: 0,
+          position: 'fixed', top: 80, width: 140, flexShrink: 0,
           display: 'flex', flexDirection: 'column', gap: 10,
+          alignSelf: 'flex-start',
         }}>
           {renderNav()}
         </nav>
