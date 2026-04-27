@@ -59,7 +59,7 @@ export default function About() {
         </div>
         <div style={{ flexShrink: 0 }}>
           <img
-            src="/images/grad.png"
+            src="/images/whimsygrad.jpeg"
             alt="Harshini"
             style={{ width: 340, height: 420, objectFit: 'cover' }}
             onError={(e) => {
