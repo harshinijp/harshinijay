@@ -16,7 +16,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html {
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 body {
@@ -40,6 +40,7 @@ em { font-style: italic; }
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 0 var(--padding);
+  overflow-x: hidden;
 }
 
 .label {
